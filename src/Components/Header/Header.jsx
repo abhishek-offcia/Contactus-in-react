@@ -4,10 +4,12 @@ import Navbar from '../NavBar/Navbar'
 export default function Header() {
   return (
     <div>
-      <section>
-        Header
+      <Header>
+        <div className="logo-part">
+          My logo
+        </div>
         <Navbar/>
-      </section>
+      </Header>
     </div>
   )
 }
